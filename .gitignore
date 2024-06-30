@@ -1,0 +1,14 @@
+# Virtual environment directory
+mudenv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+
+# Large dataset files
+malicious_phish.csv
+
+
