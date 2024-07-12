@@ -193,7 +193,7 @@ def show_predict_page():
                 scaled_test_input, columns=test_input.columns
             )
 
-            pred = model.predict(test_input)
+            pred = model.predict(scaled_test_input)
 
             st.markdown(
                 f"""Predicted URL Type: :{get_type_color(pred[0])}[{get_url_type(pred[0])}]"""
